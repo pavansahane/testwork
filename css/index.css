@@ -1,0 +1,630 @@
+body,
+body *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.backg{
+    background-image: linear-gradient(rgba(45,110,112,0.9),rgba(45,110,112,0.9)),url(../image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    border: 1px solid transparent;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-left:10px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.stick{
+    border: 1px solid #fff;
+    width: 1px;
+    height: 20px;
+    opacity: 0.3;
+    margin: 0 10px;
+}
+.logo a{
+    color: white;
+}
+
+.navigation{
+     /* width: 500px;
+    height: 30px;*/
+    margin-top: 37px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.list li{
+    list-style: none;
+    
+}
+
+.list a{
+    color: #fff;
+    padding: 10px;
+    margin: 0 2px;
+}
+
+.list a:hover{
+padding: 5px 10px;
+background: rgba(255, 255,255,0.3);
+}
+
+.linehead{
+    width: 70%;
+    height: 2px;
+    background:#fff;
+    opacity: 0.4;
+    margin: 37px auto 0 auto;
+    
+
+}
+
+.welcome{
+    width: 69%;
+    margin: 298px auto;
+    font-size: 16px;
+    color: #fff;
+}
+.welcome p{
+    width: 38%;
+    padding: 13px 0 21px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.welcome h1{
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.welcome button{
+    border: 1px solid transparent;
+    padding: 20px 45px;
+    background: #6FB048;
+    color: #fff;
+}
+
+.features{
+  width: 80%;
+    margin: 69px auto 0 auto;
+   
+}
+
+
+.feat h1{
+    color: #0F5F5C;
+    font-size: 32px;
+    font-family:'Roboto', sans-serif ;
+    font-weight: 500 ;
+   margin-top: 94px;
+}
+.stickfeat{
+    width: 66px;
+    height: 2px;
+    background: #6FB048;
+    margin:15px auto;
+}
+.feat p{
+    font-size: 15px;
+    color: #83A7A5;
+    font-family:'Roboto', sans-serif ;
+    font-weight: 450;
+   width: 451px;
+}
+
+.threefeat{
+
+display: flex;
+justify-content: space-around;
+}
+
+.ffeat{
+    width: 299px;
+    height: 174px;
+    margin-top: 20px;
+}
+.ffeat h3{
+    margin: 26px 0 18px 0;
+    font-size: 16px;
+    color: #0F5F5C;
+    font-family:'Roboto', sans-serif ;
+    font-weight: 900;
+}
+.ffeat p{
+    font-size: 14px;
+    color: #83A7A5;
+    font-family:'Roboto', sans-serif ;
+    font-weight: 450;
+
+}
+
+.otline{
+    margin-top: 31px;
+    margin-bottom: 53px;
+}
+.vline{
+    width: 3px;
+    height: 91px;
+    background: #F2F2F2;
+}
+.hline{
+    width: 91px;
+    height: 3px;
+    background: #F2F2F2;
+}
+
+
+.otgrid{
+    width: 72%;
+    margin: 0 auto 0 auto;
+    display: grid ;
+    grid-gap: 30px 150px;
+    grid-template-columns: auto auto;
+}
+.otf{
+border: 1px solid transparent;
+padding: 5px;
+font-size: 14px;
+color: #83A7A5;
+font-weight: 400;
+font-family:'Roboto', sans-serif ;
+}
+
+.otflex{
+    display: flex;
+    grid-gap: 25px;
+    font-size: 16px;
+    color: #0F5F5C;
+    font-family:'Roboto', sans-serif ;
+    margin-bottom: 10px;
+}
+
+
+
+/* MOBILE SECTION */
+.mobhand{
+    margin-top: 70px;
+    width: 100%;
+    background: #EEF1EC;
+}
+
+.mobstart h2{
+    color: #0F5F5C;
+    font-size: 32px;
+    font-family:'Roboto', sans-serif ;
+    font-weight: 500 ;
+}
+.mobstart p{
+    font-size: 15px;
+    color: #83A7A5;
+    font-family:'Roboto', sans-serif ;
+    font-weight: 450;
+    width: auto;
+}
+
+.mobdiv{
+    display: flex;
+    margin: 0 auto 0 auto;
+}
+.imgdiv{
+    width: 500PX;
+   height: auto;
+   margin: 22px 0 0 230px;
+}
+
+.readydiv{
+    width: 40%;
+}
+.readydiv h1{
+    color: #0F5F5C;
+    font-size: 32px;
+    font-family:'Roboto', sans-serif ;
+    font-weight: 500 ;
+   margin:100px 0 16px 20PX;
+}
+.readydiv p{
+    font-size: 15px;
+    color: #83A7A5;
+    font-family:'Roboto', sans-serif ;
+    font-weight: 450;
+   width: auto;
+   margin:0 40px 0 20px;
+}
+
+.readyicon{
+    margin:26px 0 20px 20px;
+}
+.readyicon p{
+    margin: 3px 0 0 10px;
+}
+.readyi{
+    display: flex;
+    grid-gap: 15px;
+    margin-bottom: 20px;
+}
+.readyic{
+    display: flex;
+    grid-gap: 15px;
+}
+
+
+/* TESTIMONIALS */
+.testimonials{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 75px auto 60px auto;
+}
+.testimonials img{
+    width: 360px;
+    height: 360px;
+    border-radius: 180px;
+    object-fit: cover;
+}
+.testdiv p{
+    width: 80%;
+    font-size: 22px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.5;
+    color: #83A7A5;
+    padding-bottom: 27px;
+}
+
+.testdiv h4{
+    color: #6FB048;
+    font-family:'Roboto' ;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+/* MAP */
+.map{
+    width: 100%;
+    height: auto;
+    background: #EEF1EC;
+}
+.maph{
+    display: flex;
+    justify-content: flex-end;
+    padding: 61px 0;
+    margin: 0 0 0 233px;
+    padding-right: 14%;
+}
+.maphead {
+    margin: auto 0;
+    padding-right: 5%;
+}
+.maphead h3{
+    color: #0F5F5C;
+    font-size: 32px;
+    font-family: 'Roboto';
+    padding-bottom:16px ;
+}
+.maphead p{
+    color: #83A7A5;
+    width: 93%;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+/* PRICE */
+.pricing{
+    width: 90%;
+    height: auto;
+    margin: 96px auto 78px auto;
+    text-align: center;
+}
+
+.pricehead{
+  margin: 0 auto;
+}
+
+.pricing h2{
+    font-size: 32px;
+    font-family: 'Roboto';
+    color: #0F5F5C;
+}
+.pricing p{
+    font-size: 14px;
+    color: #83A7A5;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.price{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    margin: 38px auto 78px auto;
+}
+.basic{
+    border: 1px solid #83A7A5;
+    width: 30%;
+}
+.price h5{
+    color: #6FB048;
+    padding-top: 30px;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+.price h1{
+    padding-top: 15px;
+    color: #0F5F5C;
+    font-size: 45px;
+    font-family: 'Merriweather', serif; 
+}
+.basic button{
+    padding:15px;
+    margin: 12px;
+    background: #83A7A5;
+    color: #fff;
+    border: none;
+}
+
+/* PLANS */
+.plans{
+    width: 71%;
+    margin: 39px auto 58px auto;
+    display: flex;
+    grid-gap: 100px;;
+}
+.plans1{
+    display: flex;
+    grid-gap: 10px;
+}
+.plans-A{
+    display: flex;
+    flex-direction: column;
+}
+.plans-A img{
+    padding: 5px;
+}
+.plans-B{
+line-height: 2.5;
+}
+.help p{
+    width: 37%;
+    font-size: 15px; 
+}
+
+.download{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-image: linear-gradient(rgba(238,241,236,1),rgba(238,241,236,0.8)), url(../image/background.png);
+}
+.downhead{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 74px;
+    
+}
+.downbutton{
+    color: #0F5F5C;
+    font-family: 'Roboto';
+}
+.downhead button{
+    border: 1px solid transparent;
+    padding: 5px 25px;
+    background: #6FB048;
+    color: #fff;
+}
+.downbutton p{
+    color: #83A7A5;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+/* WAPIK DATA */
+.wapikdata{
+    width: 80%;
+    height: auto;
+    margin: 98px auto 57px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 15px;
+}
+.wap1{
+    width: 20%;
+    height: auto;
+display: flex;
+flex-direction: column;
+}
+
+.wap1 h3{
+    text-transform: uppercase;
+    color: #0F5F5C;
+    font-size: 13px;
+    font-family: 'Roboto';
+    padding: 5px 0 15px 0;
+    margin-bottom: 10px;
+}
+.wap1 p{
+    text-transform: uppercase;
+    line-height: 1.8;
+    color: #83A7A5;
+    font-size: 13px;
+    font-family: 'Roboto';
+}
+
+.wapikdata .wap1 form{
+    margin-top: 10px;
+    border: 1px solid transparent;
+    background: #EEF1EC;
+    border-radius: 5px;
+}
+.wapikdata .wap1 form input{
+    width:70%;
+    padding: 6px 5px;
+    border: 1px solid transparent;
+    background: #EEF1EC;
+    outline: none;
+}
+
+.wapikdata .wap1 form button{
+    padding: 6px 5px;
+    border: 1px solid transparent;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 67%;
+    margin: 0 auto;
+}
+.foot h4{
+    color: #83A7A5;
+    font-size: 12px; 
+    padding-top: 10px;
+}
+.foot i{
+    padding: 5px;
+    color: #fff;
+    border-radius: 15px;
+}
+.footlogo i{
+    padding: 8px;
+}
+
+
+
+
+
+
+@media screen and (max-width:900px){
+    .list{
+        flex-direction: column;
+    }
+    .linehead{
+        display: none;
+    }
+    .welcome p{
+        width: 100%;
+       
+    }
+    .threefeat{
+        flex-direction: column;
+    }
+   .feat p{
+       width:95% ;
+   }
+   .otgrid{
+       display: flex;
+       flex-direction: column;
+   }
+   .imgdiv{
+       display: none;
+   }
+   .readydiv{
+      width: auto;
+   }
+   .testimonials{
+       flex-direction:column-reverse;
+       margin-top: 0 ;
+   }
+   .testimonials img{
+   padding:40px;
+   }
+   .testdiv p{
+       width: 100%;
+       font-size: 15px
+   }
+    .maph img{
+        display: none;
+    } 
+    .maphead{
+        margin: 0 auto;
+    }
+    .maph{
+        margin-left: 55px;
+    }
+    .pricehead{
+        width: 80%;
+    }
+    .basic h1{
+        font-size: 30px;
+    }
+    .price{
+        width: 100%;
+    }
+    .pricehead p{
+        
+    }
+    .basic button{
+        margin: 5px;
+        padding: 2px;
+        font-size: 12px;
+        
+    }
+    .plans{
+        flex-direction: column;
+        width: 90%;
+        grid-gap: 25px;
+    }
+    .help p{
+        width: 100%;
+    }
+   .download{
+       height: auto;
+       padding-bottom: 80px;
+   }
+   .downhead{
+    flex-direction: column;
+    grid-gap: 15px;
+    
+   }
+   .wapikdata{
+       flex-direction: column;
+   }
+   .foot{
+    width: 85%;
+    margin: 0 auto 10px 35px;
+}
+   
+    .wap1{
+        border: 1px solid transparent;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        height: 200px;
+    }
+    .wap1 form{
+        
+    }
+}
